@@ -44,7 +44,7 @@ export interface NoteColorTheme {
  * A collection of predefined {@link NoteColorTheme} objects, keyed by a unique name.
  */
 export const noteColorThemes: Record<string, NoteColorTheme> = {
-  musodojo: {
+  musoDojo: {
     name: "Muso Dojo",
     relative: false,
     colors: [
