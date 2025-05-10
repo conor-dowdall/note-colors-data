@@ -5,14 +5,14 @@
 
 /**
  * Represents a CSS color value (e.g., "#FF0000", "red", "rgba(0, 0, 0, 0.5)").
- * Can also be `undefined` to indicate no specific color for that note in a color theme.
+ * Can also be `null` to indicate no color for that note in a color theme.
  */
-export type NoteColor = string | undefined;
+export type NoteColor = string | null;
 
 /**
  * An array of 12 {@link NoteColor} values, where each index
  * corresponds to a specific pitch class in chromatic order
- * `undefined` values are typically used in themes
+ * `null` values are typically used in themes
  * where only certain notes are to be assigned a color,
  * e.g., the root note.
  */
@@ -85,17 +85,17 @@ export const noteColorThemes: Record<string, NoteColorTheme> = {
     relative: true,
     colors: [
       "#ED2929",
-      undefined,
-      undefined,
-      undefined,
-      undefined,
-      undefined,
-      undefined,
-      undefined,
-      undefined,
-      undefined,
-      undefined,
-      undefined,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
     ],
   },
 };
