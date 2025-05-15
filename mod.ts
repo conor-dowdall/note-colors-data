@@ -15,6 +15,7 @@ export type NoteColor = string | null;
  * `null` values are typically used in themes
  * where only certain notes are to be assigned a color,
  * e.g., the root note.
+ * @see NoteColor
  */
 export type NoteColorGroup = [
   NoteColor,
@@ -33,6 +34,7 @@ export type NoteColorGroup = [
 
 /**
  * Defines a color theme for musical notes.
+ * @see NoteColorGroup
  */
 export interface NoteColorTheme {
   name: string;
@@ -42,6 +44,7 @@ export interface NoteColorTheme {
 
 /**
  * A collection of predefined {@link NoteColorTheme} objects, keyed by a unique name.
+ * @see NoteColorTheme
  */
 export const noteColorThemes: Record<string, NoteColorTheme> = {
   musoDojo: {
