@@ -1,0 +1,6 @@
+{
+  "name": "@musodojo/note-colors-data",
+  "version": "1.0.0",
+  "license": "unlicense",
+  "exports": "./mod.ts"
+}
