@@ -101,4 +101,22 @@ export const noteColorThemes: Record<string, NoteColorTheme> = {
       null,
     ],
   },
+  rootAndFifth: {
+    name: "Root and Fifth",
+    relative: true,
+    colors: [
+      "#ED2929",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "#99CC33",
+      null,
+      null,
+      null,
+      null,
+    ],
+  },
 };
